@@ -1,0 +1,1926 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" groupLayer="" name="" checked="Qt::Checked">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer expanded="1" patch_size="-1,-1" legend_exp="" id="Settlements__Natural_Earth__d75ff898_fb1e_4fa1_b986_2d6c1d36adab" source="../../../../../../2026/2026-moz-001/GIS/2_Active_Data/229_stle/reg_stle_ste_py_s0_naturalearthdata_pp.shp|subset=FEATURECLA IN ('Admin-0 capital', 'Admin-1 region capital', 'Admin-1 capital')" name="Settlements (Natural Earth)" providerKey="ogr" legend_split_behavior="0" checked="Qt::Checked">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyMaxScale="1" wkbType="Point" autoRefreshMode="Disabled" refreshOnNotifyMessage="" minScale="0" simplifyAlgorithm="0" type="vector" maxScale="0" legendPlaceholderImage="" styleCategories="AllStyleCategories" simplifyDrawingTol="1" readOnly="0" geometry="Point" labelsEnabled="1" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" simplifyLocal="1" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
+      <extent>
+        <xmin>31.95199862130550628</xmin>
+        <ymin>-26.45499604362083801</ymin>
+        <xmax>47.51467804152986218</xmax>
+        <ymax>-11.45998655308932257</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>31.95199862130550628</xmin>
+        <ymin>-26.45499604362083801</ymin>
+        <xmax>47.51467804152986218</xmax>
+        <ymax>-11.45998655308932257</ymax>
+      </wgs84extent>
+      <id>Settlements__Natural_Earth__d75ff898_fb1e_4fa1_b986_2d6c1d36adab</id>
+      <datasource>../../../../../../2026/2026-moz-001/GIS/2_Active_Data/229_stle/reg_stle_ste_py_s0_naturalearthdata_pp.shp|subset=FEATURECLA IN ('Admin-0 capital', 'Admin-1 region capital', 'Admin-1 capital')</datasource>
+      <layername>Settlements (Natural Earth)</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract>pak_stle_stl_pt_s0_naturalearth_pp_maincities</abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" startField="" durationUnit="min" endField="" fixedDuration="0" endExpression="" durationField="" accumulate="0" limitMode="0" startExpression="" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation customToleranceEnabled="0" extrusion="0" extrusionEnabled="0" zoffset="0" symbology="Line" clamping="Terrain" binding="Centroid" respectLayerSymbol="1" type="IndividualFeatures" zscale="1" showMarkerSymbolInSurfacePlots="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol clip_to_extent="1" force_rhr="0" is_animated="0" alpha="1" frame_rate="10" type="line" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleLine" id="{d1d1ca20-96da-4502-aef9-7d5d582f4dae}" pass="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="align_dash_pattern"/>
+                <Option type="QString" value="square" name="capstyle"/>
+                <Option type="QString" value="5;2" name="customdash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                <Option type="QString" value="MM" name="customdash_unit"/>
+                <Option type="QString" value="0" name="dash_pattern_offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                <Option type="QString" value="0" name="draw_inside_polygon"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="114,155,111,255,rgb:0.4470588,0.6078431,0.4352941,1" name="line_color"/>
+                <Option type="QString" value="solid" name="line_style"/>
+                <Option type="QString" value="0.6" name="line_width"/>
+                <Option type="QString" value="MM" name="line_width_unit"/>
+                <Option type="QString" value="0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="0" name="ring_filter"/>
+                <Option type="QString" value="0" name="trim_distance_end"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                <Option type="QString" value="0" name="trim_distance_start"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                <Option type="QString" value="0" name="use_custom_dash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol clip_to_extent="1" force_rhr="0" is_animated="0" alpha="1" frame_rate="10" type="fill" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleFill" id="{d6f64ab1-fbcd-4ed6-b4d2-f26ad8eac084}" pass="0">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="114,155,111,255,rgb:0.4470588,0.6078431,0.4352941,1" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="81,111,79,255,rgb:0.3193256,0.434165,0.3109178,1" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol clip_to_extent="1" force_rhr="0" is_animated="0" alpha="1" frame_rate="10" type="marker" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleMarker" id="{51fdb4c6-f510-4514-b01c-4dd507dd735a}" pass="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="114,155,111,255,rgb:0.4470588,0.6078431,0.4352941,1" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="diamond" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="81,111,79,255,rgb:0.3193256,0.434165,0.3109178,1" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="3" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 referencescale="-1" symbollevels="1" forceraster="0" enableorderby="0" type="RuleRenderer">
+        <rules key="{0da3e748-d60a-467a-b110-2139e4928b2b}">
+          <rule label="Settlement" description="Settlement" key="{54db3f4a-8fd4-46a3-835e-438fa969eaaa}">
+            <rule filter="&quot;FEATURECLA&quot; = 'Admin-0 capital'" label="National capital" symbol="0" description="National capital" key="{411b5be6-1447-4a65-b50e-53c17d0b3069}"/>
+            <rule filter="&quot;FEATURECLA&quot; in ('Admin-1 capital', 'Populated place')" label="City" symbol="1" description="City" key="{3492f36b-71a5-4684-8a92-a7455a2ee67c}"/>
+          </rule>
+        </rules>
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" is_animated="0" alpha="1" frame_rate="10" type="marker" name="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="1" class="SvgMarker" id="{86b12a8b-79ae-48f9-ba9e-7a314fc91e34}" pass="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="0,0,0,255,rgb:0,0,0,1" name="color"/>
+                <Option type="QString" value="0" name="fixedAspectRatio"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgdmlld0JveD0iMCAwIDkuMDIgOC45OSIKIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiICB2ZXJzaW9uPSIxLjIiIGJhc2VQcm9maWxlPSJ0aW55Ij4KPHRpdGxlPlF0IFNWRyBEb2N1bWVudDwvdGl0bGU+CjxkZXNjPkdlbmVyYXRlZCB3aXRoIFF0PC9kZXNjPgo8ZGVmcz4KPC9kZWZzPgo8ZyBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjEiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCIgPgoKPGcgZmlsbD0icGFyYW0oZmlsbCkiIGZpbGwtb3BhY2l0eT0icGFyYW0oZmlsbC1vcGFjaXR5KSIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSIgc3Ryb2tlLW9wYWNpdHk9InBhcmFtKG91dGxpbmUtb3BhY2l0eSkgMSIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSIgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwxLDAsMCkiCmZvbnQtZmFtaWx5PSJNUyBTaGVsbCBEbGcgMiIgZm9udC1zaXplPSI3LjgiIGZvbnQtd2VpZ2h0PSI0MDAiIGZvbnQtc3R5bGU9Im5vcm1hbCIgCj4KPHBhdGggdmVjdG9yLWVmZmVjdD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC42Nyw5LjMzIEw0LjU1LDkuMzMgTDQuNDMsOS4zMyBMNC4zLDkuMzIgTDQuMTgsOS4zMSBMNC4wNiw5LjMgTDMuOTQsOS4yOCBMMy44Myw5LjI2IEwzLjcxLDkuMjQgTDMuNTksOS4yMiBMMy40OCw5LjE5IEwzLjM3LDkuMTYgTDMuMjUsOS4xMyBMMy4xNCw5LjA5IEwzLjAzLDkuMDYgTDIuOTMsOS4wMiBMMi44Miw4Ljk4IEwyLjcyLDguOTMgTDIuNjEsOC44OSBMMi41MSw4Ljg0IEwyLjQxLDguNzkgTDIuMzEsOC43MyBMMi4yMiw4LjY4IEwyLjEyLDguNjIgTDIuMDMsOC41NiBMMS45Myw4LjUgTDEuODQsOC40MyBMMS43Niw4LjM2IEwxLjY3LDguMjkgTDEuNTgsOC4yMiBMMS41LDguMTUgTDEuNDIsOC4wOCBMMS4zNCw4IEwxLjI2LDcuOTIgTDEuMTksNy44NCBMMS4xMiw3Ljc1IEwxLjA0LDcuNjcgTDAuOTgsNy41OCBMMC45MSw3LjUgTDAuODQsNy40MSBMMC43OCw3LjMxIEwwLjcyLDcuMjIgTDAuNjYsNy4xMiBMMC42MSw3LjAzIEwwLjU1LDYuOTMgTDAuNSw2LjgzIEwwLjQ1LDYuNzMgTDAuNDEsNi42MiBMMC4zNiw2LjUyIEwwLjMyLDYuNDEgTDAuMjgsNi4zMSBMMC4yNCw2LjIgTDAuMjEsNi4wOSBMMC4xOCw1Ljk3IEwwLjE1LDUuODYgTDAuMTIsNS43NSBMMC4xLDUuNjMgTDAuMDgsNS41MSBMMC4wNiw1LjQgTDAuMDQsNS4yOCBMMC4wMyw1LjE2IEwwLjAyLDUuMDQgTDAuMDEsNC45MSBMMC4wMSw0Ljc5IEwwLjAxLDQuNjYgTDAuMDEsNC41NCBMMC4wMSw0LjQyIEwwLjAyLDQuMjkgTDAuMDMsNC4xNyBMMC4wNCw0LjA1IEwwLjA2LDMuOTMgTDAuMDgsMy44MiBMMC4xLDMuNyBMMC4xMiwzLjU4IEwwLjE1LDMuNDcgTDAuMTgsMy4zNiBMMC4yMSwzLjI0IEwwLjI0LDMuMTMgTDAuMjgsMy4wMiBMMC4zMiwyLjkyIEwwLjM2LDIuODEgTDAuNDEsMi43MSBMMC40NSwyLjYgTDAuNSwyLjUgTDAuNTUsMi40IEwwLjYxLDIuMyBMMC42NiwyLjIxIEwwLjcyLDIuMTEgTDAuNzgsMi4wMiBMMC44NCwxLjkyIEwwLjkxLDEuODMgTDAuOTgsMS43NSBMMS4wNCwxLjY2IEwxLjEyLDEuNTcgTDEuMTksMS40OSBMMS4yNiwxLjQxIEwxLjM0LDEuMzMgTDEuNDIsMS4yNSBMMS41LDEuMTggTDEuNTgsMS4xMSBMMS42NywxLjAzIEwxLjc2LDAuOTcgTDEuODQsMC45IEwxLjkzLDAuODMgTDIuMDMsMC43NyBMMi4xMiwwLjcxIEwyLjIyLDAuNjUgTDIuMzEsMC42IEwyLjQxLDAuNTQgTDIuNTEsMC40OSBMMi42MSwwLjQ0IEwyLjcyLDAuNCBMMi44MiwwLjM1IEwyLjkzLDAuMzEgTDMuMDMsMC4yNyBMMy4xNCwwLjIzIEwzLjI1LDAuMiBMMy4zNywwLjE3IEwzLjQ4LDAuMTQgTDMuNTksMC4xMSBMMy43MSwwLjA5IEwzLjgzLDAuMDcgTDMuOTQsMC4wNSBMNC4wNiwwLjAzIEw0LjE4LDAuMDIgTDQuMywwLjAxIEw0LjQzLDAgTDQuNTUsMCBMNC42NywwIEw0LjgsMCBMNC45MiwwIEw1LjA1LDAuMDEgTDUuMTcsMC4wMiBMNS4yOSwwLjAzIEw1LjQxLDAuMDUgTDUuNTIsMC4wNyBMNS42NCwwLjA5IEw1Ljc2LDAuMTEgTDUuODcsMC4xNCBMNS45OCwwLjE3IEw2LjEsMC4yIEw2LjIxLDAuMjMgTDYuMzIsMC4yNyBMNi40MiwwLjMxIEw2LjUzLDAuMzUgTDYuNjMsMC40IEw2Ljc0LDAuNDQgTDYuODQsMC40OSBMNi45NCwwLjU0IEw3LjA0LDAuNiBMNy4xMywwLjY1IEw3LjIzLDAuNzEgTDcuMzIsMC43NyBMNy40MiwwLjgzIEw3LjUxLDAuOSBMNy41OSwwLjk3IEw3LjY4LDEuMDMgTDcuNzYsMS4xMSBMNy44NSwxLjE4IEw3LjkzLDEuMjUgTDguMDEsMS4zMyBMOC4wOSwxLjQxIEw4LjE2LDEuNDkgTDguMjMsMS41NyBMOC4zLDEuNjYgTDguMzcsMS43NSBMOC40NCwxLjgzIEw4LjUxLDEuOTIgTDguNTcsMi4wMiBMOC42MywyLjExIEw4LjY5LDIuMjEgTDguNzQsMi4zIEw4LjgsMi40IEw4Ljg1LDIuNSBMOC45LDIuNiBMOC45NCwyLjcxIEw4Ljk5LDIuODEgTDkuMDMsMi45MiBMOS4wNywzLjAyIEw5LjEsMy4xMyBMOS4xNCwzLjI0IEw5LjE3LDMuMzYgTDkuMiwzLjQ3IEw5LjIzLDMuNTggTDkuMjUsMy43IEw5LjI3LDMuODIgTDkuMjksMy45MyBMOS4zMSw0LjA1IEw5LjMyLDQuMTcgTDkuMzMsNC4yOSBMOS4zNCw0LjQyIEw5LjM0LDQuNTQgTDkuMzQsNC42NiBMOS4zNCw0Ljc5IEw5LjM0LDQuOTEgTDkuMzMsNS4wNCBMOS4zMiw1LjE2IEw5LjMxLDUuMjggTDkuMjksNS40IEw5LjI3LDUuNTEgTDkuMjUsNS42MyBMOS4yMyw1Ljc1IEw5LjIsNS44NiBMOS4xNyw1Ljk3IEw5LjE0LDYuMDkgTDkuMSw2LjIgTDkuMDcsNi4zMSBMOS4wMyw2LjQxIEw4Ljk5LDYuNTIgTDguOTQsNi42MiBMOC45LDYuNzMgTDguODUsNi44MyBMOC44LDYuOTMgTDguNzQsNy4wMyBMOC42OSw3LjEyIEw4LjYzLDcuMjIgTDguNTcsNy4zMSBMOC41MSw3LjQxIEw4LjQ0LDcuNSBMOC4zNyw3LjU4IEw4LjMsNy42NyBMOC4yMyw3Ljc1IEw4LjE2LDcuODQgTDguMDksNy45MiBMOC4wMSw4IEw3LjkzLDguMDggTDcuODUsOC4xNSBMNy43Niw4LjIyIEw3LjY4LDguMjkgTDcuNTksOC4zNiBMNy41MSw4LjQzIEw3LjQyLDguNSBMNy4zMiw4LjU2IEw3LjIzLDguNjIgTDcuMTMsOC42OCBMNy4wNCw4LjczIEw2Ljk0LDguNzkgTDYuODQsOC44NCBMNi43NCw4Ljg5IEw2LjYzLDguOTMgTDYuNTMsOC45OCBMNi40Miw5LjAyIEw2LjMyLDkuMDYgTDYuMjEsOS4wOSBMNi4xLDkuMTMgTDUuOTgsOS4xNiBMNS44Nyw5LjE5IEw1Ljc2LDkuMjIgTDUuNjQsOS4yNCBMNS41Miw5LjI2IEw1LjQxLDkuMjggTDUuMjksOS4zIEw1LjE3LDkuMzEgTDUuMDUsOS4zMiBMNC45Miw5LjMzIEw0LjgsOS4zMyBMNC42Nyw5LjMzIi8+CjwvZz4KPC9nPgo8L3N2Zz4K" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="Point" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1" name="outline_color"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="Point" name="outline_width_unit"/>
+                <Option name="parameters"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="8.0267" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="Point" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer enabled="1" locked="1" class="SvgMarker" id="{4c4d85a9-8149-4fcc-94c4-ccdc6f1f34c4}" pass="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="255,255,255,255,rgb:1,1,1,1" name="color"/>
+                <Option type="QString" value="0" name="fixedAspectRatio"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgdmlld0JveD0iMCAwIDkuMDIgOC45OSIKIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiICB2ZXJzaW9uPSIxLjIiIGJhc2VQcm9maWxlPSJ0aW55Ij4KPHRpdGxlPlF0IFNWRyBEb2N1bWVudDwvdGl0bGU+CjxkZXNjPkdlbmVyYXRlZCB3aXRoIFF0PC9kZXNjPgo8ZGVmcz4KPC9kZWZzPgo8ZyBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjEiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCIgPgoKPGcgZmlsbD0icGFyYW0oZmlsbCkiIGZpbGwtb3BhY2l0eT0icGFyYW0oZmlsbC1vcGFjaXR5KSIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSIgc3Ryb2tlLW9wYWNpdHk9InBhcmFtKG91dGxpbmUtb3BhY2l0eSkgMSIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSIgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwxLDAsMCkiCmZvbnQtZmFtaWx5PSJNUyBTaGVsbCBEbGcgMiIgZm9udC1zaXplPSI3LjgiIGZvbnQtd2VpZ2h0PSI0MDAiIGZvbnQtc3R5bGU9Im5vcm1hbCIgCj4KPHBhdGggdmVjdG9yLWVmZmVjdD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC42NywwLjMzIEw1LjM0LDMgTDguNjcsMyBMNi4wMSw1IEw3LjAxLDggTDQuNjcsNiBMMi4wMSw4IEwzLjAxLDUgTDAuNjcsMyBMMy42NywzIEw0LjY3LDAuMzMiLz4KPC9nPgo8L2c+Cjwvc3ZnPgo=" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="Point" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1" name="outline_color"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="Point" name="outline_width_unit"/>
+                <Option name="parameters"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="8.0267" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="Point" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" force_rhr="0" is_animated="0" alpha="1" frame_rate="10" type="marker" name="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleMarker" id="{87f8b987-b010-4add-b1fe-dfaff0cb14d0}" pass="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="round" name="cap_style"/>
+                <Option type="QString" value="255,255,255,255,rgb:1,1,1,1" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="round" name="joinstyle"/>
+                <Option type="QString" value="circle" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="Point" name="offset_unit"/>
+                <Option type="QString" value="0,0,0,255,rgb:0,0,0,1" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.5" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="Point" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="7" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="Point" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer enabled="1" locked="0" class="SimpleMarker" id="{47a86f8f-6938-45cf-9ecd-0f7a40869a87}" pass="0">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="0,0,0,255,rgb:0,0,0,1" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="circle" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="Point" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1" name="outline_color"/>
+                <Option type="QString" value="no" name="outline_style"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="3.5" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="Point" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <labeling type="rule-based">
+        <rules key="{1a22d95b-2507-4024-b2a9-098a4febc06f}">
+          <rule filter="FEATURECLA = 'Admin-0 capital'" description="capital" key="{b5657ac8-9d56-4965-8fd5-6d3e960f7436}">
+            <settings calloutType="simple">
+              <text-style textOrientation="horizontal" legendString="Aa" fontWeight="75" multilineHeightUnit="Percentage" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" namedStyle="" capitalization="1" fontFamily="Arial" multilineHeight="1" allowHtml="0" fieldName="name_ar" fontItalic="0" useSubstitutions="0" blendMode="0" tabStopDistanceUnit="Percentage" fontWordSpacing="0" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" textOpacity="1" fontKerning="1" fontSizeUnit="Point" forcedBold="0" fontStrikeout="0" fontUnderline="0" fontSize="11" textColor="0,0,0,255,rgb:0,0,0,1" fontLetterSpacing="0" forcedItalic="0" tabStopDistance="6" isExpression="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
+                <families/>
+                <text-buffer bufferDraw="1" bufferBlendMode="0" bufferSize="2" bufferSizeUnits="Point" bufferColor="255,255,255,255,rgb:1,1,1,1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
+                <text-mask maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSize2="1.5" maskOpacity="1" maskEnabled="0" maskSizeUnits="MM" maskSize="1.5" maskedSymbolLayers="" maskType="0" maskJoinStyle="128"/>
+                <background shapeSizeY="0" shapeOpacity="1" shapeSizeX="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOffsetY="0" shapeBorderWidth="0" shapeRadiiY="0" shapeRadiiUnit="MM" shapeBlendMode="0" shapeOffsetX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeFillColor="255,255,255,255,rgb:1,1,1,1" shapeOffsetUnit="MM" shapeRotation="0" shapeSizeType="0" shapeSizeUnit="MM" shapeRadiiX="0" shapeBorderColor="128,128,128,255,rgb:0.5019608,0.5019608,0.5019608,1" shapeJoinStyle="64">
+                  <symbol clip_to_extent="1" force_rhr="0" is_animated="0" alpha="1" frame_rate="10" type="fill" name="fillSymbol">
+                    <data_defined_properties>
+                      <Option type="Map">
+                        <Option type="QString" value="" name="name"/>
+                        <Option name="properties"/>
+                        <Option type="QString" value="collection" name="type"/>
+                      </Option>
+                    </data_defined_properties>
+                    <layer enabled="1" locked="0" class="SimpleFill" id="" pass="0">
+                      <Option type="Map">
+                        <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                        <Option type="QString" value="255,255,255,255,rgb:1,1,1,1" name="color"/>
+                        <Option type="QString" value="bevel" name="joinstyle"/>
+                        <Option type="QString" value="0,0" name="offset"/>
+                        <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                        <Option type="QString" value="MM" name="offset_unit"/>
+                        <Option type="QString" value="128,128,128,255,rgb:0.5019608,0.5019608,0.5019608,1" name="outline_color"/>
+                        <Option type="QString" value="no" name="outline_style"/>
+                        <Option type="QString" value="0" name="outline_width"/>
+                        <Option type="QString" value="MM" name="outline_width_unit"/>
+                        <Option type="QString" value="solid" name="style"/>
+                      </Option>
+                      <data_defined_properties>
+                        <Option type="Map">
+                          <Option type="QString" value="" name="name"/>
+                          <Option name="properties"/>
+                          <Option type="QString" value="collection" name="type"/>
+                        </Option>
+                      </data_defined_properties>
+                    </layer>
+                  </symbol>
+                </background>
+                <shadow shadowOffsetAngle="135" shadowOpacity="0.69999999999999996" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowBlendMode="6" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowRadiusAlphaOnly="0" shadowRadiusUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255,rgb:0,0,0,1"/>
+                <dd_properties>
+                  <Option type="Map">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                </dd_properties>
+                <substitutions/>
+              </text-style>
+              <text-format autoWrapLength="0" leftDirectionSymbol="&lt;" formatNumbers="0" multilineAlign="0" rightDirectionSymbol=">" placeDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" addDirectionSymbol="0" decimals="3" plussign="0" reverseDirectionSymbol="0" wrapChar=""/>
+              <placement rotationUnit="AngleDegrees" priority="10" fitInPolygonOnly="0" prioritization="PreferCloser" offsetType="1" preserveRotation="1" geometryGenerator="" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" overrunDistance="0" offsetUnits="MM" maxCurvedCharAngleOut="-25" lineAnchorPercent="0.5" maximumDistanceUnit="MM" dist="0" maximumDistance="0" centroidInside="0" repeatDistanceUnits="MM" allowDegraded="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" distUnits="Point" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" centroidWhole="0" repeatDistance="0" geometryGeneratorEnabled="0" quadOffset="4" yOffset="0" layerType="PointGeometry" maxCurvedCharAngleIn="25" overrunDistanceUnit="MM" lineAnchorTextPoint="FollowPlacement" lineAnchorClipping="0" xOffset="0" maximumDistanceMapUnitScale="3x:0,0,0,0,0,0" placementFlags="10" geometryGeneratorType="PointGeometry" distMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" polygonPlacementFlags="2" overlapHandling="PreventOverlap" rotationAngle="0" placement="6" lineAnchorType="0"/>
+              <rendering scaleMax="0" fontLimitPixelSize="0" obstacleType="1" maxNumLabels="2000" mergeLines="0" fontMaxPixelSize="10000" limitNumLabels="0" obstacleFactor="0" unplacedVisibility="0" upsidedownLabels="0" minFeatureSize="0" obstacle="0" labelPerPart="1" scaleMin="0" zIndex="0" fontMinPixelSize="0" scaleVisibility="0" drawLabels="1"/>
+              <dd_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="PredefinedPositionOrder">
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="'TR,TL,BR,R,T,BL,L,B'" name="expression"/>
+                      <Option type="int" value="3" name="type"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </dd_properties>
+              <callout type="simple">
+                <Option type="Map">
+                  <Option type="QString" value="pole_of_inaccessibility" name="anchorPoint"/>
+                  <Option type="int" value="0" name="blendMode"/>
+                  <Option type="Map" name="ddProperties">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                  <Option type="bool" value="false" name="drawToAllParts"/>
+                  <Option type="QString" value="0" name="enabled"/>
+                  <Option type="QString" value="point_on_exterior" name="labelAnchorPoint"/>
+                  <Option type="QString" value="&lt;symbol clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; is_animated=&quot;0&quot; alpha=&quot;1&quot; frame_rate=&quot;10&quot; type=&quot;line&quot; name=&quot;symbol&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer enabled=&quot;1&quot; locked=&quot;0&quot; class=&quot;SimpleLine&quot; id=&quot;{98d80ee5-c1ba-4684-a03d-b8a1e680a9e5}&quot; pass=&quot;0&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;align_dash_pattern&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;square&quot; name=&quot;capstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;5;2&quot; name=&quot;customdash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;customdash_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;dash_pattern_offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;draw_inside_polygon&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;bevel&quot; name=&quot;joinstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;60,60,60,255,rgb:0.2352941,0.2352941,0.2352941,1&quot; name=&quot;line_color&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;solid&quot; name=&quot;line_style&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0.3&quot; name=&quot;line_width&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;line_width_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;ring_filter&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_end&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_start&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;use_custom_dash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
+                  <Option type="double" value="0" name="minLength"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale"/>
+                  <Option type="QString" value="MM" name="minLengthUnit"/>
+                  <Option type="double" value="0" name="offsetFromAnchor"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="offsetFromAnchorMapUnitScale"/>
+                  <Option type="QString" value="MM" name="offsetFromAnchorUnit"/>
+                  <Option type="double" value="0" name="offsetFromLabel"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="offsetFromLabelMapUnitScale"/>
+                  <Option type="QString" value="MM" name="offsetFromLabelUnit"/>
+                </Option>
+              </callout>
+            </settings>
+          </rule>
+          <rule filter="FEATURECLA IN ('Admin-1 capital')" description="City" key="{471cddfc-4252-4a25-8254-56e879c6e393}">
+            <settings calloutType="simple">
+              <text-style textOrientation="horizontal" legendString="Aa" fontWeight="50" multilineHeightUnit="Percentage" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" namedStyle="" capitalization="0" fontFamily="Arial" multilineHeight="1" allowHtml="0" fieldName="name_ar" fontItalic="0" useSubstitutions="0" blendMode="0" tabStopDistanceUnit="Percentage" fontWordSpacing="0" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" textOpacity="1" fontKerning="1" fontSizeUnit="Point" forcedBold="0" fontStrikeout="0" fontUnderline="0" fontSize="10" textColor="0,0,0,255,rgb:0,0,0,1" fontLetterSpacing="0" forcedItalic="0" tabStopDistance="6" isExpression="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
+                <families/>
+                <text-buffer bufferDraw="1" bufferBlendMode="0" bufferSize="2" bufferSizeUnits="Point" bufferColor="255,255,255,255,rgb:1,1,1,1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
+                <text-mask maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSize2="1.5" maskOpacity="1" maskEnabled="0" maskSizeUnits="MM" maskSize="1.5" maskedSymbolLayers="" maskType="0" maskJoinStyle="128"/>
+                <background shapeSizeY="0" shapeOpacity="1" shapeSizeX="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOffsetY="0" shapeBorderWidth="0" shapeRadiiY="0" shapeRadiiUnit="MM" shapeBlendMode="0" shapeOffsetX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeFillColor="255,255,255,255,rgb:1,1,1,1" shapeOffsetUnit="MM" shapeRotation="0" shapeSizeType="0" shapeSizeUnit="MM" shapeRadiiX="0" shapeBorderColor="128,128,128,255,rgb:0.5019608,0.5019608,0.5019608,1" shapeJoinStyle="64">
+                  <symbol clip_to_extent="1" force_rhr="0" is_animated="0" alpha="1" frame_rate="10" type="fill" name="fillSymbol">
+                    <data_defined_properties>
+                      <Option type="Map">
+                        <Option type="QString" value="" name="name"/>
+                        <Option name="properties"/>
+                        <Option type="QString" value="collection" name="type"/>
+                      </Option>
+                    </data_defined_properties>
+                    <layer enabled="1" locked="0" class="SimpleFill" id="" pass="0">
+                      <Option type="Map">
+                        <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                        <Option type="QString" value="255,255,255,255,rgb:1,1,1,1" name="color"/>
+                        <Option type="QString" value="bevel" name="joinstyle"/>
+                        <Option type="QString" value="0,0" name="offset"/>
+                        <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                        <Option type="QString" value="MM" name="offset_unit"/>
+                        <Option type="QString" value="128,128,128,255,rgb:0.5019608,0.5019608,0.5019608,1" name="outline_color"/>
+                        <Option type="QString" value="no" name="outline_style"/>
+                        <Option type="QString" value="0" name="outline_width"/>
+                        <Option type="QString" value="MM" name="outline_width_unit"/>
+                        <Option type="QString" value="solid" name="style"/>
+                      </Option>
+                      <data_defined_properties>
+                        <Option type="Map">
+                          <Option type="QString" value="" name="name"/>
+                          <Option name="properties"/>
+                          <Option type="QString" value="collection" name="type"/>
+                        </Option>
+                      </data_defined_properties>
+                    </layer>
+                  </symbol>
+                </background>
+                <shadow shadowOffsetAngle="135" shadowOpacity="0.69999999999999996" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowBlendMode="6" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowRadiusAlphaOnly="0" shadowRadiusUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255,rgb:0,0,0,1"/>
+                <dd_properties>
+                  <Option type="Map">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                </dd_properties>
+                <substitutions/>
+              </text-style>
+              <text-format autoWrapLength="0" leftDirectionSymbol="&lt;" formatNumbers="0" multilineAlign="0" rightDirectionSymbol=">" placeDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" addDirectionSymbol="0" decimals="3" plussign="0" reverseDirectionSymbol="0" wrapChar=""/>
+              <placement rotationUnit="AngleDegrees" priority="10" fitInPolygonOnly="0" prioritization="PreferCloser" offsetType="1" preserveRotation="1" geometryGenerator="" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" overrunDistance="0" offsetUnits="MM" maxCurvedCharAngleOut="-25" lineAnchorPercent="0.5" maximumDistanceUnit="MM" dist="0" maximumDistance="0" centroidInside="0" repeatDistanceUnits="MM" allowDegraded="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" distUnits="Point" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" centroidWhole="0" repeatDistance="0" geometryGeneratorEnabled="0" quadOffset="4" yOffset="0" layerType="PointGeometry" maxCurvedCharAngleIn="25" overrunDistanceUnit="MM" lineAnchorTextPoint="FollowPlacement" lineAnchorClipping="0" xOffset="0" maximumDistanceMapUnitScale="3x:0,0,0,0,0,0" placementFlags="10" geometryGeneratorType="PointGeometry" distMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" polygonPlacementFlags="2" overlapHandling="PreventOverlap" rotationAngle="0" placement="6" lineAnchorType="0"/>
+              <rendering scaleMax="0" fontLimitPixelSize="0" obstacleType="1" maxNumLabels="2000" mergeLines="0" fontMaxPixelSize="10000" limitNumLabels="0" obstacleFactor="0" unplacedVisibility="0" upsidedownLabels="0" minFeatureSize="0" obstacle="0" labelPerPart="1" scaleMin="0" zIndex="0" fontMinPixelSize="0" scaleVisibility="0" drawLabels="1"/>
+              <dd_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="PredefinedPositionOrder">
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="'TR,TL,BR,R,T,BL,L,B'" name="expression"/>
+                      <Option type="int" value="3" name="type"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </dd_properties>
+              <callout type="simple">
+                <Option type="Map">
+                  <Option type="QString" value="pole_of_inaccessibility" name="anchorPoint"/>
+                  <Option type="int" value="0" name="blendMode"/>
+                  <Option type="Map" name="ddProperties">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                  <Option type="bool" value="false" name="drawToAllParts"/>
+                  <Option type="QString" value="0" name="enabled"/>
+                  <Option type="QString" value="point_on_exterior" name="labelAnchorPoint"/>
+                  <Option type="QString" value="&lt;symbol clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; is_animated=&quot;0&quot; alpha=&quot;1&quot; frame_rate=&quot;10&quot; type=&quot;line&quot; name=&quot;symbol&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer enabled=&quot;1&quot; locked=&quot;0&quot; class=&quot;SimpleLine&quot; id=&quot;{56ff9484-7ed2-469b-b558-38d77adf8bb8}&quot; pass=&quot;0&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;align_dash_pattern&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;square&quot; name=&quot;capstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;5;2&quot; name=&quot;customdash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;customdash_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;dash_pattern_offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;draw_inside_polygon&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;bevel&quot; name=&quot;joinstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;60,60,60,255,rgb:0.2352941,0.2352941,0.2352941,1&quot; name=&quot;line_color&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;solid&quot; name=&quot;line_style&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0.3&quot; name=&quot;line_width&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;line_width_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;ring_filter&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_end&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_start&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;use_custom_dash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
+                  <Option type="double" value="0" name="minLength"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale"/>
+                  <Option type="QString" value="MM" name="minLengthUnit"/>
+                  <Option type="double" value="0" name="offsetFromAnchor"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="offsetFromAnchorMapUnitScale"/>
+                  <Option type="QString" value="MM" name="offsetFromAnchorUnit"/>
+                  <Option type="double" value="0" name="offsetFromLabel"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="offsetFromLabelMapUnitScale"/>
+                  <Option type="QString" value="MM" name="offsetFromLabelUnit"/>
+                </Option>
+              </callout>
+            </settings>
+          </rule>
+        </rules>
+      </labeling>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="NoFlag" name="SCALERANK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NATSCALE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="LABELRANK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="FEATURECLA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NAMEPAR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NAMEALT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="DIFFASCII">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NAMEASCII">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="ADM0CAP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CAPIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="WORLDCITY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MEGACITY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="SOV0NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="SOV_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="ADM0NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="ADM0_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="ADM1NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="ISO_A2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NOTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CHANGED">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="NAMEDIFF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="DIFFNOTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP_MAX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP_MIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP_OTHER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="RANK_MAX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="RANK_MIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="GEONAMEID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MEGANAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="LS_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="LS_MATCH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CHECKME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_POP10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_POP20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_POP50">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_POP300">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_POP310">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_NATSCA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MIN_AREAKM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_AREAKM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MIN_AREAMI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_AREAMI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MIN_PERKM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_PERKM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MIN_PERMI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_PERMI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MIN_BBXMIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_BBXMIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MIN_BBXMAX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_BBXMAX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MIN_BBYMIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_BBYMIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MIN_BBYMAX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MAX_BBYMAX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MEAN_BBXC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="MEAN_BBYC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="COMPARE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="GN_ASCII">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="FEATURE_CL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="FEATURE_CO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="ADMIN1_COD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="GN_POP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="ELEVATION">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="GTOPO30">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="TIMEZONE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="GEONAMESNO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="UN_FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="UN_ADM0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="UN_LAT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="UN_LONG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1950">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1955">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1960">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1965">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1970">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1975">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1980">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1985">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1990">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP1995">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP2000">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP2005">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP2010">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP2015">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP2020">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP2025">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="POP2050">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CITYALT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="min_zoom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="wikidataid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="wof_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="CAPALT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_en">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_de">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_es">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_fr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_pt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_ru">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_zh">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="label">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_ar">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_bn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_el">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_hi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_hu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_it">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_ja">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_ko">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_nl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_pl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_sv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_tr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="name_vi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="wdid_score">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="ne_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SCALERANK" index="0" name=""/>
+        <alias field="NATSCALE" index="1" name=""/>
+        <alias field="LABELRANK" index="2" name=""/>
+        <alias field="FEATURECLA" index="3" name=""/>
+        <alias field="NAME" index="4" name=""/>
+        <alias field="NAMEPAR" index="5" name=""/>
+        <alias field="NAMEALT" index="6" name=""/>
+        <alias field="DIFFASCII" index="7" name=""/>
+        <alias field="NAMEASCII" index="8" name=""/>
+        <alias field="ADM0CAP" index="9" name=""/>
+        <alias field="CAPIN" index="10" name=""/>
+        <alias field="WORLDCITY" index="11" name=""/>
+        <alias field="MEGACITY" index="12" name=""/>
+        <alias field="SOV0NAME" index="13" name=""/>
+        <alias field="SOV_A3" index="14" name=""/>
+        <alias field="ADM0NAME" index="15" name=""/>
+        <alias field="ADM0_A3" index="16" name=""/>
+        <alias field="ADM1NAME" index="17" name=""/>
+        <alias field="ISO_A2" index="18" name=""/>
+        <alias field="NOTE" index="19" name=""/>
+        <alias field="LATITUDE" index="20" name=""/>
+        <alias field="LONGITUDE" index="21" name=""/>
+        <alias field="CHANGED" index="22" name=""/>
+        <alias field="NAMEDIFF" index="23" name=""/>
+        <alias field="DIFFNOTE" index="24" name=""/>
+        <alias field="POP_MAX" index="25" name=""/>
+        <alias field="POP_MIN" index="26" name=""/>
+        <alias field="POP_OTHER" index="27" name=""/>
+        <alias field="RANK_MAX" index="28" name=""/>
+        <alias field="RANK_MIN" index="29" name=""/>
+        <alias field="GEONAMEID" index="30" name=""/>
+        <alias field="MEGANAME" index="31" name=""/>
+        <alias field="LS_NAME" index="32" name=""/>
+        <alias field="LS_MATCH" index="33" name=""/>
+        <alias field="CHECKME" index="34" name=""/>
+        <alias field="MAX_POP10" index="35" name=""/>
+        <alias field="MAX_POP20" index="36" name=""/>
+        <alias field="MAX_POP50" index="37" name=""/>
+        <alias field="MAX_POP300" index="38" name=""/>
+        <alias field="MAX_POP310" index="39" name=""/>
+        <alias field="MAX_NATSCA" index="40" name=""/>
+        <alias field="MIN_AREAKM" index="41" name=""/>
+        <alias field="MAX_AREAKM" index="42" name=""/>
+        <alias field="MIN_AREAMI" index="43" name=""/>
+        <alias field="MAX_AREAMI" index="44" name=""/>
+        <alias field="MIN_PERKM" index="45" name=""/>
+        <alias field="MAX_PERKM" index="46" name=""/>
+        <alias field="MIN_PERMI" index="47" name=""/>
+        <alias field="MAX_PERMI" index="48" name=""/>
+        <alias field="MIN_BBXMIN" index="49" name=""/>
+        <alias field="MAX_BBXMIN" index="50" name=""/>
+        <alias field="MIN_BBXMAX" index="51" name=""/>
+        <alias field="MAX_BBXMAX" index="52" name=""/>
+        <alias field="MIN_BBYMIN" index="53" name=""/>
+        <alias field="MAX_BBYMIN" index="54" name=""/>
+        <alias field="MIN_BBYMAX" index="55" name=""/>
+        <alias field="MAX_BBYMAX" index="56" name=""/>
+        <alias field="MEAN_BBXC" index="57" name=""/>
+        <alias field="MEAN_BBYC" index="58" name=""/>
+        <alias field="COMPARE" index="59" name=""/>
+        <alias field="GN_ASCII" index="60" name=""/>
+        <alias field="FEATURE_CL" index="61" name=""/>
+        <alias field="FEATURE_CO" index="62" name=""/>
+        <alias field="ADMIN1_COD" index="63" name=""/>
+        <alias field="GN_POP" index="64" name=""/>
+        <alias field="ELEVATION" index="65" name=""/>
+        <alias field="GTOPO30" index="66" name=""/>
+        <alias field="TIMEZONE" index="67" name=""/>
+        <alias field="GEONAMESNO" index="68" name=""/>
+        <alias field="UN_FID" index="69" name=""/>
+        <alias field="UN_ADM0" index="70" name=""/>
+        <alias field="UN_LAT" index="71" name=""/>
+        <alias field="UN_LONG" index="72" name=""/>
+        <alias field="POP1950" index="73" name=""/>
+        <alias field="POP1955" index="74" name=""/>
+        <alias field="POP1960" index="75" name=""/>
+        <alias field="POP1965" index="76" name=""/>
+        <alias field="POP1970" index="77" name=""/>
+        <alias field="POP1975" index="78" name=""/>
+        <alias field="POP1980" index="79" name=""/>
+        <alias field="POP1985" index="80" name=""/>
+        <alias field="POP1990" index="81" name=""/>
+        <alias field="POP1995" index="82" name=""/>
+        <alias field="POP2000" index="83" name=""/>
+        <alias field="POP2005" index="84" name=""/>
+        <alias field="POP2010" index="85" name=""/>
+        <alias field="POP2015" index="86" name=""/>
+        <alias field="POP2020" index="87" name=""/>
+        <alias field="POP2025" index="88" name=""/>
+        <alias field="POP2050" index="89" name=""/>
+        <alias field="CITYALT" index="90" name=""/>
+        <alias field="min_zoom" index="91" name=""/>
+        <alias field="wikidataid" index="92" name=""/>
+        <alias field="wof_id" index="93" name=""/>
+        <alias field="CAPALT" index="94" name=""/>
+        <alias field="name_en" index="95" name=""/>
+        <alias field="name_de" index="96" name=""/>
+        <alias field="name_es" index="97" name=""/>
+        <alias field="name_fr" index="98" name=""/>
+        <alias field="name_pt" index="99" name=""/>
+        <alias field="name_ru" index="100" name=""/>
+        <alias field="name_zh" index="101" name=""/>
+        <alias field="label" index="102" name=""/>
+        <alias field="name_ar" index="103" name=""/>
+        <alias field="name_bn" index="104" name=""/>
+        <alias field="name_el" index="105" name=""/>
+        <alias field="name_hi" index="106" name=""/>
+        <alias field="name_hu" index="107" name=""/>
+        <alias field="name_id" index="108" name=""/>
+        <alias field="name_it" index="109" name=""/>
+        <alias field="name_ja" index="110" name=""/>
+        <alias field="name_ko" index="111" name=""/>
+        <alias field="name_nl" index="112" name=""/>
+        <alias field="name_pl" index="113" name=""/>
+        <alias field="name_sv" index="114" name=""/>
+        <alias field="name_tr" index="115" name=""/>
+        <alias field="name_vi" index="116" name=""/>
+        <alias field="wdid_score" index="117" name=""/>
+        <alias field="ne_id" index="118" name=""/>
+      </aliases>
+      <defaults>
+        <default expression="" field="SCALERANK" applyOnUpdate="0"/>
+        <default expression="" field="NATSCALE" applyOnUpdate="0"/>
+        <default expression="" field="LABELRANK" applyOnUpdate="0"/>
+        <default expression="" field="FEATURECLA" applyOnUpdate="0"/>
+        <default expression="" field="NAME" applyOnUpdate="0"/>
+        <default expression="" field="NAMEPAR" applyOnUpdate="0"/>
+        <default expression="" field="NAMEALT" applyOnUpdate="0"/>
+        <default expression="" field="DIFFASCII" applyOnUpdate="0"/>
+        <default expression="" field="NAMEASCII" applyOnUpdate="0"/>
+        <default expression="" field="ADM0CAP" applyOnUpdate="0"/>
+        <default expression="" field="CAPIN" applyOnUpdate="0"/>
+        <default expression="" field="WORLDCITY" applyOnUpdate="0"/>
+        <default expression="" field="MEGACITY" applyOnUpdate="0"/>
+        <default expression="" field="SOV0NAME" applyOnUpdate="0"/>
+        <default expression="" field="SOV_A3" applyOnUpdate="0"/>
+        <default expression="" field="ADM0NAME" applyOnUpdate="0"/>
+        <default expression="" field="ADM0_A3" applyOnUpdate="0"/>
+        <default expression="" field="ADM1NAME" applyOnUpdate="0"/>
+        <default expression="" field="ISO_A2" applyOnUpdate="0"/>
+        <default expression="" field="NOTE" applyOnUpdate="0"/>
+        <default expression="" field="LATITUDE" applyOnUpdate="0"/>
+        <default expression="" field="LONGITUDE" applyOnUpdate="0"/>
+        <default expression="" field="CHANGED" applyOnUpdate="0"/>
+        <default expression="" field="NAMEDIFF" applyOnUpdate="0"/>
+        <default expression="" field="DIFFNOTE" applyOnUpdate="0"/>
+        <default expression="" field="POP_MAX" applyOnUpdate="0"/>
+        <default expression="" field="POP_MIN" applyOnUpdate="0"/>
+        <default expression="" field="POP_OTHER" applyOnUpdate="0"/>
+        <default expression="" field="RANK_MAX" applyOnUpdate="0"/>
+        <default expression="" field="RANK_MIN" applyOnUpdate="0"/>
+        <default expression="" field="GEONAMEID" applyOnUpdate="0"/>
+        <default expression="" field="MEGANAME" applyOnUpdate="0"/>
+        <default expression="" field="LS_NAME" applyOnUpdate="0"/>
+        <default expression="" field="LS_MATCH" applyOnUpdate="0"/>
+        <default expression="" field="CHECKME" applyOnUpdate="0"/>
+        <default expression="" field="MAX_POP10" applyOnUpdate="0"/>
+        <default expression="" field="MAX_POP20" applyOnUpdate="0"/>
+        <default expression="" field="MAX_POP50" applyOnUpdate="0"/>
+        <default expression="" field="MAX_POP300" applyOnUpdate="0"/>
+        <default expression="" field="MAX_POP310" applyOnUpdate="0"/>
+        <default expression="" field="MAX_NATSCA" applyOnUpdate="0"/>
+        <default expression="" field="MIN_AREAKM" applyOnUpdate="0"/>
+        <default expression="" field="MAX_AREAKM" applyOnUpdate="0"/>
+        <default expression="" field="MIN_AREAMI" applyOnUpdate="0"/>
+        <default expression="" field="MAX_AREAMI" applyOnUpdate="0"/>
+        <default expression="" field="MIN_PERKM" applyOnUpdate="0"/>
+        <default expression="" field="MAX_PERKM" applyOnUpdate="0"/>
+        <default expression="" field="MIN_PERMI" applyOnUpdate="0"/>
+        <default expression="" field="MAX_PERMI" applyOnUpdate="0"/>
+        <default expression="" field="MIN_BBXMIN" applyOnUpdate="0"/>
+        <default expression="" field="MAX_BBXMIN" applyOnUpdate="0"/>
+        <default expression="" field="MIN_BBXMAX" applyOnUpdate="0"/>
+        <default expression="" field="MAX_BBXMAX" applyOnUpdate="0"/>
+        <default expression="" field="MIN_BBYMIN" applyOnUpdate="0"/>
+        <default expression="" field="MAX_BBYMIN" applyOnUpdate="0"/>
+        <default expression="" field="MIN_BBYMAX" applyOnUpdate="0"/>
+        <default expression="" field="MAX_BBYMAX" applyOnUpdate="0"/>
+        <default expression="" field="MEAN_BBXC" applyOnUpdate="0"/>
+        <default expression="" field="MEAN_BBYC" applyOnUpdate="0"/>
+        <default expression="" field="COMPARE" applyOnUpdate="0"/>
+        <default expression="" field="GN_ASCII" applyOnUpdate="0"/>
+        <default expression="" field="FEATURE_CL" applyOnUpdate="0"/>
+        <default expression="" field="FEATURE_CO" applyOnUpdate="0"/>
+        <default expression="" field="ADMIN1_COD" applyOnUpdate="0"/>
+        <default expression="" field="GN_POP" applyOnUpdate="0"/>
+        <default expression="" field="ELEVATION" applyOnUpdate="0"/>
+        <default expression="" field="GTOPO30" applyOnUpdate="0"/>
+        <default expression="" field="TIMEZONE" applyOnUpdate="0"/>
+        <default expression="" field="GEONAMESNO" applyOnUpdate="0"/>
+        <default expression="" field="UN_FID" applyOnUpdate="0"/>
+        <default expression="" field="UN_ADM0" applyOnUpdate="0"/>
+        <default expression="" field="UN_LAT" applyOnUpdate="0"/>
+        <default expression="" field="UN_LONG" applyOnUpdate="0"/>
+        <default expression="" field="POP1950" applyOnUpdate="0"/>
+        <default expression="" field="POP1955" applyOnUpdate="0"/>
+        <default expression="" field="POP1960" applyOnUpdate="0"/>
+        <default expression="" field="POP1965" applyOnUpdate="0"/>
+        <default expression="" field="POP1970" applyOnUpdate="0"/>
+        <default expression="" field="POP1975" applyOnUpdate="0"/>
+        <default expression="" field="POP1980" applyOnUpdate="0"/>
+        <default expression="" field="POP1985" applyOnUpdate="0"/>
+        <default expression="" field="POP1990" applyOnUpdate="0"/>
+        <default expression="" field="POP1995" applyOnUpdate="0"/>
+        <default expression="" field="POP2000" applyOnUpdate="0"/>
+        <default expression="" field="POP2005" applyOnUpdate="0"/>
+        <default expression="" field="POP2010" applyOnUpdate="0"/>
+        <default expression="" field="POP2015" applyOnUpdate="0"/>
+        <default expression="" field="POP2020" applyOnUpdate="0"/>
+        <default expression="" field="POP2025" applyOnUpdate="0"/>
+        <default expression="" field="POP2050" applyOnUpdate="0"/>
+        <default expression="" field="CITYALT" applyOnUpdate="0"/>
+        <default expression="" field="min_zoom" applyOnUpdate="0"/>
+        <default expression="" field="wikidataid" applyOnUpdate="0"/>
+        <default expression="" field="wof_id" applyOnUpdate="0"/>
+        <default expression="" field="CAPALT" applyOnUpdate="0"/>
+        <default expression="" field="name_en" applyOnUpdate="0"/>
+        <default expression="" field="name_de" applyOnUpdate="0"/>
+        <default expression="" field="name_es" applyOnUpdate="0"/>
+        <default expression="" field="name_fr" applyOnUpdate="0"/>
+        <default expression="" field="name_pt" applyOnUpdate="0"/>
+        <default expression="" field="name_ru" applyOnUpdate="0"/>
+        <default expression="" field="name_zh" applyOnUpdate="0"/>
+        <default expression="" field="label" applyOnUpdate="0"/>
+        <default expression="" field="name_ar" applyOnUpdate="0"/>
+        <default expression="" field="name_bn" applyOnUpdate="0"/>
+        <default expression="" field="name_el" applyOnUpdate="0"/>
+        <default expression="" field="name_hi" applyOnUpdate="0"/>
+        <default expression="" field="name_hu" applyOnUpdate="0"/>
+        <default expression="" field="name_id" applyOnUpdate="0"/>
+        <default expression="" field="name_it" applyOnUpdate="0"/>
+        <default expression="" field="name_ja" applyOnUpdate="0"/>
+        <default expression="" field="name_ko" applyOnUpdate="0"/>
+        <default expression="" field="name_nl" applyOnUpdate="0"/>
+        <default expression="" field="name_pl" applyOnUpdate="0"/>
+        <default expression="" field="name_sv" applyOnUpdate="0"/>
+        <default expression="" field="name_tr" applyOnUpdate="0"/>
+        <default expression="" field="name_vi" applyOnUpdate="0"/>
+        <default expression="" field="wdid_score" applyOnUpdate="0"/>
+        <default expression="" field="ne_id" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" field="SCALERANK" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="NATSCALE" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="LABELRANK" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="FEATURECLA" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="NAME" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="NAMEPAR" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="NAMEALT" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="DIFFASCII" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="NAMEASCII" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="ADM0CAP" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="CAPIN" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="WORLDCITY" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MEGACITY" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="SOV0NAME" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="SOV_A3" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="ADM0NAME" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="ADM0_A3" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="ADM1NAME" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="ISO_A2" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="NOTE" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="LATITUDE" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="LONGITUDE" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="CHANGED" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="NAMEDIFF" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="DIFFNOTE" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP_MAX" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP_MIN" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP_OTHER" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="RANK_MAX" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="RANK_MIN" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="GEONAMEID" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MEGANAME" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="LS_NAME" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="LS_MATCH" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="CHECKME" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_POP10" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_POP20" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_POP50" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_POP300" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_POP310" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_NATSCA" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MIN_AREAKM" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_AREAKM" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MIN_AREAMI" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_AREAMI" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MIN_PERKM" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_PERKM" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MIN_PERMI" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_PERMI" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MIN_BBXMIN" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_BBXMIN" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MIN_BBXMAX" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_BBXMAX" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MIN_BBYMIN" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_BBYMIN" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MIN_BBYMAX" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MAX_BBYMAX" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MEAN_BBXC" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="MEAN_BBYC" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="COMPARE" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="GN_ASCII" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="FEATURE_CL" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="FEATURE_CO" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="ADMIN1_COD" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="GN_POP" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="ELEVATION" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="GTOPO30" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="TIMEZONE" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="GEONAMESNO" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="UN_FID" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="UN_ADM0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="UN_LAT" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="UN_LONG" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1950" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1955" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1960" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1965" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1970" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1975" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1980" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1985" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1990" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP1995" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP2000" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP2005" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP2010" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP2015" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP2020" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP2025" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="POP2050" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="CITYALT" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="min_zoom" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="wikidataid" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="wof_id" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="CAPALT" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_en" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_de" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_es" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_fr" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_pt" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_ru" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_zh" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="label" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_ar" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_bn" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_el" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_hi" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_hu" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_id" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_it" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_ja" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_ko" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_nl" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_pl" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_sv" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_tr" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="name_vi" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="wdid_score" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="ne_id" notnull_strength="0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SCALERANK" exp="" desc=""/>
+        <constraint field="NATSCALE" exp="" desc=""/>
+        <constraint field="LABELRANK" exp="" desc=""/>
+        <constraint field="FEATURECLA" exp="" desc=""/>
+        <constraint field="NAME" exp="" desc=""/>
+        <constraint field="NAMEPAR" exp="" desc=""/>
+        <constraint field="NAMEALT" exp="" desc=""/>
+        <constraint field="DIFFASCII" exp="" desc=""/>
+        <constraint field="NAMEASCII" exp="" desc=""/>
+        <constraint field="ADM0CAP" exp="" desc=""/>
+        <constraint field="CAPIN" exp="" desc=""/>
+        <constraint field="WORLDCITY" exp="" desc=""/>
+        <constraint field="MEGACITY" exp="" desc=""/>
+        <constraint field="SOV0NAME" exp="" desc=""/>
+        <constraint field="SOV_A3" exp="" desc=""/>
+        <constraint field="ADM0NAME" exp="" desc=""/>
+        <constraint field="ADM0_A3" exp="" desc=""/>
+        <constraint field="ADM1NAME" exp="" desc=""/>
+        <constraint field="ISO_A2" exp="" desc=""/>
+        <constraint field="NOTE" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+        <constraint field="CHANGED" exp="" desc=""/>
+        <constraint field="NAMEDIFF" exp="" desc=""/>
+        <constraint field="DIFFNOTE" exp="" desc=""/>
+        <constraint field="POP_MAX" exp="" desc=""/>
+        <constraint field="POP_MIN" exp="" desc=""/>
+        <constraint field="POP_OTHER" exp="" desc=""/>
+        <constraint field="RANK_MAX" exp="" desc=""/>
+        <constraint field="RANK_MIN" exp="" desc=""/>
+        <constraint field="GEONAMEID" exp="" desc=""/>
+        <constraint field="MEGANAME" exp="" desc=""/>
+        <constraint field="LS_NAME" exp="" desc=""/>
+        <constraint field="LS_MATCH" exp="" desc=""/>
+        <constraint field="CHECKME" exp="" desc=""/>
+        <constraint field="MAX_POP10" exp="" desc=""/>
+        <constraint field="MAX_POP20" exp="" desc=""/>
+        <constraint field="MAX_POP50" exp="" desc=""/>
+        <constraint field="MAX_POP300" exp="" desc=""/>
+        <constraint field="MAX_POP310" exp="" desc=""/>
+        <constraint field="MAX_NATSCA" exp="" desc=""/>
+        <constraint field="MIN_AREAKM" exp="" desc=""/>
+        <constraint field="MAX_AREAKM" exp="" desc=""/>
+        <constraint field="MIN_AREAMI" exp="" desc=""/>
+        <constraint field="MAX_AREAMI" exp="" desc=""/>
+        <constraint field="MIN_PERKM" exp="" desc=""/>
+        <constraint field="MAX_PERKM" exp="" desc=""/>
+        <constraint field="MIN_PERMI" exp="" desc=""/>
+        <constraint field="MAX_PERMI" exp="" desc=""/>
+        <constraint field="MIN_BBXMIN" exp="" desc=""/>
+        <constraint field="MAX_BBXMIN" exp="" desc=""/>
+        <constraint field="MIN_BBXMAX" exp="" desc=""/>
+        <constraint field="MAX_BBXMAX" exp="" desc=""/>
+        <constraint field="MIN_BBYMIN" exp="" desc=""/>
+        <constraint field="MAX_BBYMIN" exp="" desc=""/>
+        <constraint field="MIN_BBYMAX" exp="" desc=""/>
+        <constraint field="MAX_BBYMAX" exp="" desc=""/>
+        <constraint field="MEAN_BBXC" exp="" desc=""/>
+        <constraint field="MEAN_BBYC" exp="" desc=""/>
+        <constraint field="COMPARE" exp="" desc=""/>
+        <constraint field="GN_ASCII" exp="" desc=""/>
+        <constraint field="FEATURE_CL" exp="" desc=""/>
+        <constraint field="FEATURE_CO" exp="" desc=""/>
+        <constraint field="ADMIN1_COD" exp="" desc=""/>
+        <constraint field="GN_POP" exp="" desc=""/>
+        <constraint field="ELEVATION" exp="" desc=""/>
+        <constraint field="GTOPO30" exp="" desc=""/>
+        <constraint field="TIMEZONE" exp="" desc=""/>
+        <constraint field="GEONAMESNO" exp="" desc=""/>
+        <constraint field="UN_FID" exp="" desc=""/>
+        <constraint field="UN_ADM0" exp="" desc=""/>
+        <constraint field="UN_LAT" exp="" desc=""/>
+        <constraint field="UN_LONG" exp="" desc=""/>
+        <constraint field="POP1950" exp="" desc=""/>
+        <constraint field="POP1955" exp="" desc=""/>
+        <constraint field="POP1960" exp="" desc=""/>
+        <constraint field="POP1965" exp="" desc=""/>
+        <constraint field="POP1970" exp="" desc=""/>
+        <constraint field="POP1975" exp="" desc=""/>
+        <constraint field="POP1980" exp="" desc=""/>
+        <constraint field="POP1985" exp="" desc=""/>
+        <constraint field="POP1990" exp="" desc=""/>
+        <constraint field="POP1995" exp="" desc=""/>
+        <constraint field="POP2000" exp="" desc=""/>
+        <constraint field="POP2005" exp="" desc=""/>
+        <constraint field="POP2010" exp="" desc=""/>
+        <constraint field="POP2015" exp="" desc=""/>
+        <constraint field="POP2020" exp="" desc=""/>
+        <constraint field="POP2025" exp="" desc=""/>
+        <constraint field="POP2050" exp="" desc=""/>
+        <constraint field="CITYALT" exp="" desc=""/>
+        <constraint field="min_zoom" exp="" desc=""/>
+        <constraint field="wikidataid" exp="" desc=""/>
+        <constraint field="wof_id" exp="" desc=""/>
+        <constraint field="CAPALT" exp="" desc=""/>
+        <constraint field="name_en" exp="" desc=""/>
+        <constraint field="name_de" exp="" desc=""/>
+        <constraint field="name_es" exp="" desc=""/>
+        <constraint field="name_fr" exp="" desc=""/>
+        <constraint field="name_pt" exp="" desc=""/>
+        <constraint field="name_ru" exp="" desc=""/>
+        <constraint field="name_zh" exp="" desc=""/>
+        <constraint field="label" exp="" desc=""/>
+        <constraint field="name_ar" exp="" desc=""/>
+        <constraint field="name_bn" exp="" desc=""/>
+        <constraint field="name_el" exp="" desc=""/>
+        <constraint field="name_hi" exp="" desc=""/>
+        <constraint field="name_hu" exp="" desc=""/>
+        <constraint field="name_id" exp="" desc=""/>
+        <constraint field="name_it" exp="" desc=""/>
+        <constraint field="name_ja" exp="" desc=""/>
+        <constraint field="name_ko" exp="" desc=""/>
+        <constraint field="name_nl" exp="" desc=""/>
+        <constraint field="name_pl" exp="" desc=""/>
+        <constraint field="name_sv" exp="" desc=""/>
+        <constraint field="name_tr" exp="" desc=""/>
+        <constraint field="name_vi" exp="" desc=""/>
+        <constraint field="wdid_score" exp="" desc=""/>
+        <constraint field="ne_id" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"NAME"</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

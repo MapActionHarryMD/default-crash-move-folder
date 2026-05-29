@@ -1,0 +1,93 @@
+FILES IN BOTH ARCPRO AND QGIS
+============================================================
+File
+------------------------------------------------------------
+admn_ad0_ln_all_reference
+admn_ad0_ln_all_thematic
+admn_ad1_ln_all_reference
+admn_ad1_ln_all_thematic
+admn_ad1_py_all_reference
+admn_ad1_py_all_thematic
+admn_ad1_py_livingatlas_web
+admn_ad2_ln_all_reference
+admn_ad2_ln_all_thematic
+admn_ad2_py_all_reference
+admn_ad2_py_all_thematic
+admn_ad2_py_livingatlas_web
+admn_ad3_ln_all_reference
+admn_ad3_py_all_reference
+admn_ad3_py_all_thematic
+admn_adx_ln_all_inset
+admn_dis_ln_all_reference
+admn_dis_ln_all_thematic
+carto_fea_py_all
+educ_edu_pt_osm
+elev_cst_ln_all
+elev_dem_ras_all
+elev_hsh_ras_all
+evnt_epi_pt_usgs
+evnt_eqsi_py_usgs
+heal_hos_pt_osm
+land_lcov_ras_esa
+phys_dam_pt_geodar
+phys_lake_py_natearth
+phys_lake_py_osm
+phys_res_py_osm
+phys_riv_ln_natearth
+phys_riv_ln_osm
+stle_stl_pt_natearth_city
+stle_stl_pt_osm_city
+tran_air_pt_ourairports
+tran_port_pt_worldports
+tran_rrd_ln_osm
+------------------------------------------------------------
+Count: 38
+
+MISSING FILES
+============================================================
+ArcPro	QGIS	File
+------------------------------------------------------------
+No	No	admn_ad0_ln_all_inset
+No	No	admn_ad1_py_all_reference_ar
+No	No	admn_ad2_py_all_reference_ar
+No	No	admn_ad2_py_all_thematic_ar
+No	No	admn_ad3_ln_all_thematic
+No	No	admn_ad3_py_all_reference_ar
+No	No	admn_ad3_py_all_thematic_ar
+No	No	admn_adx_ln_all
+No	No	admn_adx_py_all
+No	No	admn_adx_py_all_ar
+No	No	admn_adx_py_all_inset
+No	No	admn_adx_py_all_inset_ar
+No	No	evnt_fld_py_all
+No	No	evnt_fld_ras_all
+No	No	evnt_str_ln_jtwc
+No	No	evnt_str_ln_nhc
+No	No	evnt_str_pt_jtwc
+No	No	evnt_str_pt_nhc
+No	No	evnt_wind_py_jtwc
+No	No	evnt_wind_py_nhc
+No	No	heal_cli_pt_osm
+No	No	heal_doc_pt_osm
+No	No	popu_pop_ras_all
+No	No	stle_stl_pt_natearth_cap
+No	No	stle_stl_pt_natearth_cap_ar
+No	No	stle_stl_pt_natearth_city_ar
+No	No	stle_stl_pt_natearth_town_ar
+No	No	stle_stl_pt_osm_cap_ar
+No	No	stle_stl_pt_osm_city_ar
+No	No	stle_stl_pt_osm_town
+No	No	stle_stl_pt_osm_town_ar
+No	No	stle_stl_pt_osm_vil
+No	No	tran_air_pt_osm_lge
+No	No	tran_air_pt_osm_med
+No	No	tran_air_pt_osm_sma
+No	No	tran_rds_ln_natearth_prim
+No	No	tran_rds_ln_natearth_sec
+No	No	tran_rds_ln_osm_min
+No	No	tran_rds_ln_osm_prim
+No	No	tran_rds_ln_osm_sec
+No	No	tran_rds_ln_osm_ter
+No	No	tran_rds_ln_osm_tra
+------------------------------------------------------------
+Count: 42
