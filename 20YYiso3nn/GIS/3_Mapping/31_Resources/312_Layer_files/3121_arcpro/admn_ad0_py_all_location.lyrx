@@ -3,23 +3,25 @@
   "version" : "3.6.0",
   "build" : 59527,
   "layers" : [
-    "CIMPATH=main_map/mainmap_admn_ad0_ln_s0_surroundingcountries.xml"
+    "CIMPATH=main_map/mainmap_admn_ad1_py_s0_reference.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "admn_ad0_ln_all_reference",
-      "uRI" : "CIMPATH=main_map/mainmap_admn_ad0_ln_s0_surroundingcountries.xml",
+      "name" : "admn_ad0_py_all_location",
+      "uRI" : "CIMPATH=main_map/mainmap_admn_ad1_py_s0_reference.xml",
       "sourceModifiedTime" : {
-        "type" : "TimeInstant"
+        "type" : "TimeInstant",
+        "start" : 978307200000
       },
-      "metadataURI" : "CIMPATH=Metadata/db49847d074fc2ea6126d29fcef02239.xml",
+      "metadataURI" : "CIMPATH=Metadata/101f4f21d2f247d807053b72ee9c03a3.xml",
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "elevationSurfaceLayerURI" : "CIMPATH=main_map21/ground.json"
+        "elevationSurfaceLayerURI" : "CIMPATH=location_map21/ground.json"
       },
-      "layerType" : "Operational",
+      "expanded" : true,
+      "layerType" : "BasemapBackground",
       "showLegends" : true,
       "visibility" : true,
       "displayCacheType" : "Permanent",
@@ -30,11 +32,10 @@
       "refreshRateUnit" : "esriTimeUnitsSeconds",
       "blendingMode" : "Alpha",
       "allowDrapingOnIntegratedMesh" : true,
-      "autoGenerateFeatureTemplates" : true,
       "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "displayField" : "LEFT_FID",
+        "displayField" : "Name_MMR4",
         "editable" : true,
         "timeFields" : {
           "type" : "CIMTimeTableDefinition"
@@ -54,7 +55,7 @@
           "type" : "CIMStandardDataConnection",
           "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\2_Active_Data\\202_admn",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "ven_admn_ad0_ln_s1_ine_pp_country",
+          "dataset" : "ven_admn_ad0_py_s1_ine_pp_country",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -63,16 +64,9 @@
       "featureTemplates" : [
         {
           "type" : "CIMRowTemplate",
-          "name" : "International",
-          "tags" : "Line",
-          "defaultToolGUID" : "af2dbf8f-280e-44db-8860-e399d0b30cf1",
-          "excludedToolGUIDs" : [
-            "09c6f589-a3ce-48ab-81bc-46965c58f264",
-            "28c04532-3daf-4d3d-b7be-a589c9c9a03e",
-            "5664cae4-c7de-432a-9933-9586bc15ed39",
-            "6f0ed2cc-c099-4895-bd7e-beec2f78adbf",
-            "e00209dd-05c5-4424-be62-51581f9f811d"
-          ]
+          "name" : "lka_admn_ad1_py_s0_wfpocha_pp",
+          "tags" : "Polygon",
+          "defaultToolGUID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921"
         }
       ],
       "htmlPopupEnabled" : true,
@@ -86,12 +80,11 @@
       "selectionSymbol" : {
         "type" : "CIMSymbolReference",
         "symbol" : {
-          "type" : "CIMLineSymbol",
+          "type" : "CIMPolygonSymbol",
           "symbolLayers" : [
             {
               "type" : "CIMSolidStroke",
               "enable" : true,
-              "name" : "Level_0",
               "capStyle" : "Round",
               "joinStyle" : "Round",
               "lineStyle3D" : "Strip",
@@ -109,7 +102,8 @@
                 ]
               }
             }
-          ]
+          ],
+          "angleAlignment" : "Map"
         }
       },
       "featureCacheType" : "None",
@@ -119,31 +113,33 @@
       "labelClasses" : [
         {
           "type" : "CIMLabelClass",
-          "expressionTitle" : "Custom",
-          "expression" : "$feature.LEFT_FID",
-          "expressionEngine" : "Arcade",
+          "expression" : "[ADM0_ES] &vbNewLine & [ADM0_PCODE]",
+          "expressionEngine" : "VBScript",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
             "type" : "CIMMaplexLabelPlacementProperties",
-            "featureType" : "Line",
-            "avoidPolygonHoles" : true,
-            "canOverrunFeature" : true,
+            "featureType" : "Polygon",
+            "avoidPolygonHoles" : false,
+            "canKeyNumberLabel" : true,
+            "canOverrunFeature" : false,
             "canPlaceLabelOutsidePolygon" : true,
+            "canReduceFontSize" : true,
             "canRemoveOverlappingLabel" : true,
             "canStackLabel" : true,
             "centerLabelAnchorType" : "Symbol",
-            "connectionType" : "MinimizeLabels",
-            "constrainOffset" : "AboveLine",
+            "connectionType" : "Unambiguous",
+            "constrainOffset" : "NoConstraint",
             "contourAlignmentType" : "Page",
             "contourLadderType" : "Straight",
             "contourMaximumAngle" : 90,
             "enableConnection" : true,
             "featureWeight" : 0,
-            "fontHeightReductionLimit" : 4,
-            "fontHeightReductionStep" : 0.5,
+            "fontHeightReductionLimit" : 9,
+            "fontHeightReductionStep" : 0.25,
             "fontWidthReductionLimit" : 90,
             "fontWidthReductionStep" : 5,
             "graticuleAlignmentType" : "Straight",
+            "isMinimumSizeBasedOnArea" : true,
             "keyNumberGroupName" : "Default",
             "labelBuffer" : 15,
             "labelLargestPolygon" : true,
@@ -168,20 +164,19 @@
                 }
               ],
               "trimStackingSeparators" : true,
-              "preferToStackLongLabels" : false
+              "preferToStackLongLabels" : true
             },
             "lineFeatureType" : "General",
-            "linePlacementMethod" : "OffsetStraightFromLine",
-            "maximumLabelOverrun" : 16,
+            "linePlacementMethod" : "OffsetCurvedFromLine",
+            "maximumLabelOverrun" : 0,
             "maximumLabelOverrunUnit" : "Point",
-            "measureFromClippedFeatureGeometry" : true,
             "minimumFeatureSizeUnit" : "Map",
-            "multiPartOption" : "OneLabelPerFeature",
+            "multiPartOption" : "OneLabelPerPart",
             "offsetAlongLineProperties" : {
               "type" : "CIMMaplexOffsetAlongLineProperties",
               "placementMethod" : "BestPositionAlongLine",
               "labelAnchorPoint" : "CenterOfLabel",
-              "distanceUnit" : "Map",
+              "distanceUnit" : "Percentage",
               "useLineDirection" : true
             },
             "pointExternalZonePriorities" : {
@@ -214,12 +209,12 @@
               "type" : "CIMMaplexInternalZonePriorities",
               "center" : 1
             },
-            "polygonPlacementMethod" : "CurvedInPolygon",
+            "polygonPlacementMethod" : "HorizontalInPolygon",
             "primaryOffset" : 1,
             "primaryOffsetUnit" : "Point",
             "removeAmbiguousLabels" : "All",
             "removeExtraWhiteSpace" : true,
-            "repetitionIntervalUnit" : "Point",
+            "repetitionIntervalUnit" : "Map",
             "rotationProperties" : {
               "type" : "CIMMaplexRotationProperties",
               "rotationType" : "Arithmetic",
@@ -235,15 +230,15 @@
               "fontReduction" : 4,
               "abbreviation" : 5
             },
+            "thinDuplicateLabels" : true,
             "thinningDistanceUnit" : "Point",
             "truncationMarkerCharacter" : ".",
             "truncationMinimumLength" : 1,
             "truncationPreferredCharacters" : "aeiou",
-            "truncationExcludedCharacters" : "0123456789",
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
-          "name" : "Normal",
-          "priority" : -1,
+          "name" : "Default",
+          "priority" : 12,
           "standardLabelPlacementProperties" : {
             "type" : "CIMStandardLabelPlacementProperties",
             "featureType" : "Line",
@@ -288,21 +283,53 @@
             "symbol" : {
               "type" : "CIMTextSymbol",
               "blockProgression" : "TTB",
+              "compatibilityMode" : true,
               "depth3D" : 1,
+              "drawSoftHyphen" : true,
               "extrapolateBaselines" : true,
+              "flipAngle" : 90,
               "fontEffects" : "Normal",
               "fontEncoding" : "Unicode",
-              "fontFamilyName" : "Tahoma",
-              "fontStyleName" : "Regular",
+              "fontFamilyName" : "Arial",
+              "fontStyleName" : "Bold",
               "fontType" : "Unspecified",
               "haloSize" : 1,
-              "height" : 10,
+              "haloSymbol" : {
+                "type" : "CIMPolygonSymbol",
+                "symbolLayers" : [
+                  {
+                    "type" : "CIMSolidFill",
+                    "enable" : true,
+                    "color" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        255,
+                        255,
+                        255,
+                        100
+                      ]
+                    }
+                  }
+                ],
+                "angleAlignment" : "Map"
+              },
+              "height" : 11,
               "hinting" : "Default",
               "horizontalAlignment" : "Left",
               "kerning" : true,
+              "letterSpacing" : 30,
               "letterWidth" : 100,
               "ligatures" : true,
               "lineGapType" : "ExtraLeading",
+              "shadowColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  0,
+                  0,
+                  0,
+                  100
+                ]
+              },
               "symbol" : {
                 "type" : "CIMPolygonSymbol",
                 "symbolLayers" : [
@@ -312,9 +339,9 @@
                     "color" : {
                       "type" : "CIMRGBColor",
                       "values" : [
-                        0,
-                        0,
-                        0,
+                        78,
+                        78,
+                        78,
                         100
                       ]
                     }
@@ -322,9 +349,16 @@
                 ],
                 "angleAlignment" : "Map"
               },
-              "textCase" : "Normal",
+              "symbol3DProperties" : {
+                "type" : "CIM3DSymbolProperties",
+                "dominantSizeAxis3D" : "Z",
+                "rotationOrder3D" : "YXZ",
+                "scaleZ" : 1,
+                "scaleY" : 1
+              },
+              "textCase" : "Allcaps",
               "textDirection" : "LTR",
-              "verticalAlignment" : "Bottom",
+              "verticalAlignment" : "Baseline",
               "verticalGlyphOrientation" : "Right",
               "wordSpacing" : 100,
               "billboardMode3D" : "FaceNearPlane"
@@ -338,46 +372,36 @@
       "renderer" : {
         "type" : "CIMSimpleRenderer",
         "sampleSize" : 10000,
-        "label" : "International",
-        "patch" : "Default",
+        "label" : "Admin 1",
+        "patch" : "AreaRoundedRectangle",
         "symbol" : {
           "type" : "CIMSymbolReference",
           "symbol" : {
-            "type" : "CIMLineSymbol",
+            "type" : "CIMPolygonSymbol",
             "symbolLayers" : [
               {
                 "type" : "CIMSolidStroke",
                 "enable" : true,
-                "name" : "Level_1",
-                "capStyle" : "Butt",
+                "capStyle" : "Round",
                 "joinStyle" : "Round",
                 "lineStyle3D" : "Strip",
-                "miterLimit" : 10,
-                "width" : 3.5,
+                "miterLimit" : 4,
+                "width" : 0,
                 "height3D" : 1,
                 "anchor3D" : "Center",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    52,
-                    52,
-                    52,
-                    100
+                    0,
+                    0,
+                    0,
+                    0
                   ]
                 }
               },
               {
-                "type" : "CIMSolidStroke",
+                "type" : "CIMSolidFill",
                 "enable" : true,
-                "name" : "Level_0",
-                "colorLocked" : true,
-                "capStyle" : "Butt",
-                "joinStyle" : "Round",
-                "lineStyle3D" : "Strip",
-                "miterLimit" : 10,
-                "width" : 5,
-                "height3D" : 1,
-                "anchor3D" : "Center",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
@@ -388,33 +412,20 @@
                   ]
                 }
               }
-            ]
+            ],
+            "angleAlignment" : "Map"
           }
         }
       },
-      "scaleSymbols" : true,
-      "snappable" : true,
-      "symbolLayerDrawing" : {
-        "type" : "CIMSymbolLayerDrawing",
-        "symbolLayers" : [
-          {
-            "type" : "CIMSymbolLayerIdentifier",
-            "symbolLayerName" : "Level_1"
-          },
-          {
-            "type" : "CIMSymbolLayerIdentifier",
-            "symbolLayerName" : "Level_0"
-          }
-        ],
-        "useSymbolLayerDrawing" : true
-      }
+      "scaleSymbols" : false,
+      "snappable" : true
     }
   ],
   "binaryReferences" : [
     {
       "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/db49847d074fc2ea6126d29fcef02239.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>14453100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-admn-ad0-ln-s0-surroundingcountries</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+      "uRI" : "CIMPATH=Metadata/101f4f21d2f247d807053b72ee9c03a3.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\">\r\n\t<Esri>\r\n\t\t<CreaDate>20211007</CreaDate>\r\n\t\t<CreaTime>14453100</CreaTime>\r\n\t\t<ArcGISFormat>1.0</ArcGISFormat>\r\n\t\t<SyncOnce>TRUE</SyncOnce>\r\n\t</Esri>\r\n\t<dataIdInfo>\r\n\t\t<idCitation>\r\n\t\t\t<resTitle>mainmap-admn-ad1-py-s0-reference</resTitle>\r\n\t\t</idCitation>\r\n\t\t<idAbs>\r\n\t\t</idAbs>\r\n\t\t<idCredit>\r\n\t\t</idCredit>\r\n\t</dataIdInfo>\r\n</metadata>\r\n"
     }
   ],
   "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
@@ -423,7 +434,7 @@
     {
       "type" : "CIMElevationSurfaceLayer",
       "name" : "Ground",
-      "uRI" : "CIMPATH=main_map21/ground.json",
+      "uRI" : "CIMPATH=location_map21/ground.json",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },

@@ -3,22 +3,23 @@
   "version" : "3.6.0",
   "build" : 59527,
   "layers" : [
-    "CIMPATH=main_map/mainmap_admn_ad0_ln_s0_surroundingcountries.xml"
+    "CIMPATH=Main_map/wrl_admn_adx_ln_s0_un_pp_worldcountries.json"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "admn_ad0_ln_all_reference",
-      "uRI" : "CIMPATH=main_map/mainmap_admn_ad0_ln_s0_surroundingcountries.xml",
+      "name" : "admn_adx_ln_all_location",
+      "uRI" : "CIMPATH=Main_map/wrl_admn_adx_ln_s0_un_pp_worldcountries.json",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
-      "metadataURI" : "CIMPATH=Metadata/db49847d074fc2ea6126d29fcef02239.xml",
-      "useSourceMetadata" : false,
+      "useSourceMetadata" : true,
+      "description" : "wrl_admn_adx_ln_s0_un_pp_worldcountries",
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
         "elevationSurfaceLayerURI" : "CIMPATH=main_map21/ground.json"
       },
+      "expanded" : true,
       "layerType" : "Operational",
       "showLegends" : true,
       "visibility" : true,
@@ -34,8 +35,81 @@
       "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "displayField" : "LEFT_FID",
+        "displayField" : "ISO3CD",
         "editable" : true,
+        "fieldDescriptions" : [
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "FID",
+            "fieldName" : "FID",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 0,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "readOnly" : true,
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Shape",
+            "fieldName" : "Shape",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "BDYTYP",
+            "fieldName" : "BDYTYP",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 0,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "ISO3CD",
+            "fieldName" : "ISO3CD",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Shape_Leng",
+            "fieldName" : "Shape_Leng",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 0,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 6
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Shape__Len",
+            "fieldName" : "Shape__Len",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 0,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 6
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          }
+        ],
         "timeFields" : {
           "type" : "CIMTimeTableDefinition"
         },
@@ -54,27 +128,12 @@
           "type" : "CIMStandardDataConnection",
           "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\2_Active_Data\\202_admn",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "ven_admn_ad0_ln_s1_ine_pp_country",
+          "dataset" : "wrl_admn_adx_ln_s0_un_pp_worldcountries.shp",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
         "searchOrder" : "esriSearchOrderSpatial"
       },
-      "featureTemplates" : [
-        {
-          "type" : "CIMRowTemplate",
-          "name" : "International",
-          "tags" : "Line",
-          "defaultToolGUID" : "af2dbf8f-280e-44db-8860-e399d0b30cf1",
-          "excludedToolGUIDs" : [
-            "09c6f589-a3ce-48ab-81bc-46965c58f264",
-            "28c04532-3daf-4d3d-b7be-a589c9c9a03e",
-            "5664cae4-c7de-432a-9933-9586bc15ed39",
-            "6f0ed2cc-c099-4895-bd7e-beec2f78adbf",
-            "e00209dd-05c5-4424-be62-51581f9f811d"
-          ]
-        }
-      ],
       "htmlPopupEnabled" : true,
       "htmlPopupFormat" : {
         "type" : "CIMHtmlPopupFormat",
@@ -83,36 +142,7 @@
       },
       "isFlattened" : true,
       "selectable" : true,
-      "selectionSymbol" : {
-        "type" : "CIMSymbolReference",
-        "symbol" : {
-          "type" : "CIMLineSymbol",
-          "symbolLayers" : [
-            {
-              "type" : "CIMSolidStroke",
-              "enable" : true,
-              "name" : "Level_0",
-              "capStyle" : "Round",
-              "joinStyle" : "Round",
-              "lineStyle3D" : "Strip",
-              "miterLimit" : 10,
-              "width" : 2,
-              "height3D" : 1,
-              "anchor3D" : "Center",
-              "color" : {
-                "type" : "CIMRGBColor",
-                "values" : [
-                  0,
-                  255,
-                  255,
-                  100
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "featureCacheType" : "None",
+      "featureCacheType" : "Session",
       "displayFiltersType" : "ByScale",
       "featureBlendingMode" : "Alpha",
       "layerEffectsMode" : "Layer",
@@ -120,7 +150,7 @@
         {
           "type" : "CIMLabelClass",
           "expressionTitle" : "Custom",
-          "expression" : "$feature.LEFT_FID",
+          "expression" : "$feature.FID",
           "expressionEngine" : "Arcade",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
@@ -353,15 +383,15 @@
                 "joinStyle" : "Round",
                 "lineStyle3D" : "Strip",
                 "miterLimit" : 10,
-                "width" : 3.5,
+                "width" : 3,
                 "height3D" : 1,
                 "anchor3D" : "Center",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    52,
-                    52,
-                    52,
+                    104,
+                    104,
+                    104,
                     100
                   ]
                 }
@@ -375,7 +405,7 @@
                 "joinStyle" : "Round",
                 "lineStyle3D" : "Strip",
                 "miterLimit" : 10,
-                "width" : 5,
+                "width" : 4,
                 "height3D" : 1,
                 "anchor3D" : "Center",
                 "color" : {
@@ -408,13 +438,6 @@
         ],
         "useSymbolLayerDrawing" : true
       }
-    }
-  ],
-  "binaryReferences" : [
-    {
-      "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/db49847d074fc2ea6126d29fcef02239.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>14453100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-admn-ad0-ln-s0-surroundingcountries</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
     }
   ],
   "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
